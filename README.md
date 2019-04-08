@@ -1,37 +1,12 @@
 # welcome bot: A Probot App
 
-DESCRIPTION PLACEHOLDER
+Greetings! Probot is an open source framework that allows you to create GitHub apps to automate your GitHub workflow. Probot is also an example of a great community - be sure to stop by and check them out
 
 ## What it does
 
-FEATURES PLACEHOLDER
-
-## Getting started
-
-1. [Install the bot](https://github.com/apps/welcome) on the intended repositories. The plugin requires the following **Permissions and Events**:
-
-- Pull requests: Read & Write
-- Issues: Read & Write
-
-2. Create a .github/config.yml file to check for content of the comments:
-
-```
-# Configuration for welcome - https://github.com/behaviorbot/welcome
-
-# Configuration for new-issue-welcome - https://github.com/behaviorbot/new-issue-welcome
-
-# Comment to be posted to on first time issues
-newIssueWelcomeComment: >
-  Thanks for opening your first issue here! Be sure to follow the issue template!
-
-# Configuration for new-pr-welcome - https://github.com/behaviorbot/new-pr-welcome
-
-# Comment to be posted to on PRs from first time contributors in your repository
-newPRWelcomeComment: >
-  Thanks for opening this pull request! Please check out our contributing guidelines.
-
-# Configuration for first-pr-merge - https://github.com/behaviorbot/first-pr-merge
-
+* A GitHub App 
+* built with probot
+* welcomes new users
 # Comment to be posted to on pull requests merged by a first time user
 firstPRMergeComment: >
   Congrats on merging your first pull request! We here at behaviorbot are proud of you!
