@@ -1,11 +1,32 @@
-# Your GitHub Learning Lab Repository for Community Starter Kit
+# welcome bot: A Probot App
 
-Welcome to **your** repository for your GitHub Learning Lab course. This repository will be used during the different activities that I will be guiding you through to learn about making your project friendlier for collaboration.
+Greetings! Probot is:
+* an open source framework that allows you to create GitHub apps to automate your GitHub workflow. 
+* an example of a great community - be sure to stop by and check them out
 
-Oh! I haven't introduced myself...
+## What it does
 
-I'm the GitHub Learning Lab bot and I'm here to help guide you in your journey to learn and master the various topics covered in this course. I will be using Issue and Pull Request comments to communicate with you. In fact, I already added a pull request for you to check out.
+* A GitHub App 
+* built with probot
+* welcomes new users
+# Comment to be posted to on pull requests merged by a first time user
+firstPRMergeComment: >
+  Congrats on merging your first pull request! We here at behaviorbot are proud of you!
 
-![issue tab](https://lab.github.com/public/images/issue_tab.png)
+# It is recommended to include as many gifs and emojis as possible!
+```
 
-I'll meet you over there, can't wait to get started!
+You can opt out of having the bot comment on first time pull requests, pull request merges, or new issues by not filling in a value for each app's respective field.
+
+For some inspiration about what kind of content to include in your .github/config files, check out [Electron's Configuration](https://github.com/electron/electron/blob/master/.github/config.yml).
+
+## Need help?
+
+If you need help using this app, we encourage you to:
+
+- Check out the [Getting Started Guide](docs/getting-started.md) in the docs folder of this repository
+- If you can't find the answer there, open an issue in this repository and add the label `question`
+
+## Project maintainers
+
+This project is maintained by Monalisa Octocat and friends. Use of this project under the [MIT License](LICENSE.md).
