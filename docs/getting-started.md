@@ -35,4 +35,6 @@ firstPRMergeComment: >
 
 ### Example Messages
 
-CONFIGS PLACEHOLDER
+# You did it! Merge success!
+
+# Thank you for honouring us with your first merge! :heart:
